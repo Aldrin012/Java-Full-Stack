@@ -32,6 +32,7 @@ public class StudentInfo {
 	}
 	
 	public static void main(String[] args) throws StudentNotFoundExcetion {
+		System.out.println("Hello");
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter the no of students to be entered:");
 		int n = sc.nextInt();
